@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-color: rgb(3, 3, 48);
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  display: flex;
+  background-color: rgb(4, 4, 65);
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  height: 70px;
+  top: 0px;
+  width: 100vw;
+}
+.right ul {
+  display: flex;
+  align-items: center;
+}
+.right ul li {
+  list-style: none;
+  margin: 0 22px;
+}
+.left {
+  font-size: 1.5rem;
+}
+.right ul li a {
+  text-decoration: none;
+  color: white;
+}
+.right ul li a:hover {
+  text-decoration: none;
+  color: rgb(48, 77, 184);
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 90px 0px;
+  font-size: 2.5rem;
+  align-items: center;
+}
+.firstSection > div {
+  width: 30%;
+  /* background-color: red; */
+}
+.right_section img {
+  width: 80%;
+  margin: 10px 0px;
+}
+/* .left_section{
+    margin: 40px 0px;
+} */
+.purple {
+  color: rgb(141, 23, 141);
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+hr {
+  border: 0;
+  background: #39399f;
+  height: 2px;
+  margin: 40px;
+}
+/* .gray{
+    color: gray;
+}
+
+.box{
+    display: flex;
+    width: 80vw;
+    height: 1px;
+    background: white;
+    margin: 39px 0px;
+}
+.verticle{
+    background: white;
+    height: 63px;
+    width: 1px;
+    margin: 0px 79px;
+}
+.verticle_title{
+    position: relative;
+    top: 61px;
+    left: -14px;
+    width: 148px;
+    font-size: 15px;
+}
+.verticle_desc{
+    position: relative;
+    top: 68px;
+    left: -15px;
+    width: 163px;
+    font-size: 10px;
+}
+.box2{
+    margin: 225px 0px;
+    display: flex;
+    width: 80vw;
+    height: 1px;
+    background: white;
+} */
+.secondSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.container {
+  margin: 15px 0px;
+}
+.html {
+  width: 31vw;
+  height: -1px;
+  background-color: #c03636;
+  padding: 2px 0px;
+  /* border: 3px solid white; */
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+.css {
+  width: 31vw;
+  height: -1px;
+  background-color: #c03636;
+  padding: 2px 0px;
+  /* border: 3px solid white; */
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+.js {
+  width: 29vw;
+  height: -1px;
+  background-color: #c03636;
+  padding: 2px 0px;
+  /* border: 3px solid white; */
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+.node {
+  width: 24vw;
+  height: -1px;
+  background-color: #c03636;
+  padding: 2px 0px;
+  /* border: 3px solid white; */
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+.node {
+  width: 24vw;
+  height: -1px;
+  background-color: #c03636;
+  padding: 2px 0px;
+  /* border: 3px solid white; */
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+.exp {
+  width: 24vw;
+  height: -1px;
+  background-color: #c03636;
+  padding: 2px 0px;
+  /* border: 3px solid white; */
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+.mongo {
+  width: 24vw;
+  height: -1px;
+  background-color: #c03636;
+  padding: 2px 0px;
+  /* border: 3px solid white; */
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+.mac {
+  width: 20vw;
+  height: -1px;
+  background-color: #c03636;
+  padding: 2px 0px;
+  /* border: 3px solid white; */
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+.dep {
+  width: 20vw;
+  height: -1px;
+  background-color: #c03636;
+  padding: 2px 0px;
+  /* border: 3px solid white; */
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+.container {
+  width: 35vw;
+  background-color: gray;
+  border: 2px solid white;
+}
+.max-width {
+  max-width: 80vw;
+}
+.m-auto {
+  margin: auto;
+}
+.gray {
+  color: gray;
+}
+.btn {
+  padding: 8px 2px;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  background-color: #3e3e97;
+  color: white;
+  width: 12vw;
+  margin: 5px 8px;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.contactSection input,
+textarea {
+  padding: 9px 3px;
+  width: 268px;
+  border-radius: 13px;
+  background-color: #040436;
+  color: white;
+  border: 3px solid white;
+  margin: 9px 0px;
+}
+.contactSection h1 {
+  margin: 8px 0px;
+}
+.contactSection {
+  margin: 20px auto;
+}
+.filter {
+  filter: invert(100%);
+}
+.right-exps {
+  /* display: flex; */
+}
+.expa {
+  display: flex;
+  margin: 30px 0px;
+}
+.expb {
+  display: flex;
+  margin: 30px 0px;
+}
+.exp-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.proj {
+  margin: 30px 0px;
+  width: 55%;
+}
+.proj-cont {
+  display: flex;
+}
+.right-proj img {
+  margin: 15px -250px;
+  height: 6vh;
+  border-radius: 25px;
+  width: 4vw;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 10vh;
+  font-size: 0.8rem;
+}
+.logo{
+  filter: invert(100%);
+}
+.contact{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.Information div{
+  margin: 33px 0px;
+}
+.Phone{
+  width: 28px;
+}
+.Link{
+  width: 29px;
+}
+.gwalior{
+  width: 288px;
+}
+.mx{
+  margin: 0px 5px;
+}
+
+.AboutSection {
+  max-width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:2px;
+}
+.AboutSection .imgContainer img {
+  height: 28vh;
+  width: 271px;
+  border-radius: 164px;
+  margin-top: 53px;
+}
+.intro p {
+  margin-top: 47px;
+}
+.git {
+  filter: invert(100%);
+  margin: 1px;
+  height: 6vh;
+}
